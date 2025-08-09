@@ -1,0 +1,321 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin:0;
+    background-color: black;
+    color:white;
+    overflow: hidden;
+    
+}
+.main{
+    
+    display:flex;
+    height:100vh;
+    
+}
+.sidebar{
+    background-color:#121212;
+    width:340px;
+    border-radius: 1rem/*1 rem=16px*/;
+    overflow: scroll;
+    
+}
+.main-content{
+    background-color:#121212;
+    flex:1;
+    border-radius: 1rem;
+    overflow:auto;
+    margin-left: 1.4rem;
+    padding:0 1.5rem 0 1.5rem;
+}
+.music-player{
+    background-color:black;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:72px;
+
+}
+a{
+   text-decoration: none; 
+
+}
+.nav-option{
+    background-color: #121212;
+    line-height: 2.5rem;
+    opacity: 0.65;
+    padding: 0.5rem 0.75rem;
+    
+
+}
+.nav-option:hover{
+    background-color: #121212;
+    line-height: 2.5rem;
+    opacity: 1;
+
+}
+
+.nav{
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100px;
+    padding:0.5rem 0.75rem;
+
+
+}
+.nav-option i{
+    font-size:1.25rem;
+    
+}
+.nav-option a{
+    font-size:1rem;
+    margin-left: 12px;
+}
+.lib-option{
+    background-color: #121212;
+  
+}
+.lib-option{
+    background-color: #121212;
+    opacity: 0.5;
+    margin-top: 16px;
+    margin-left: 14px;
+}
+.lib-option a{
+    background-color: #121212;
+    opacity: 0.7;
+
+}
+.lib-option a:hover{
+    background-color: #121212;
+    opacity: 1;
+
+}
+.icons{
+    background-color: #121212;
+    display: inline;
+    margin-left: 150px;
+    opacity: 0.7;
+}
+.icons:hover{
+    background-color: #121212;
+    display: inline;
+    margin-left: 150px;
+    opacity: 1;
+}
+.options{
+    display: flex;
+
+}
+.box{
+    background-color: #121212;
+    height: 8rem;
+    border-radius:0.75rem;
+    margin:0.5rem 0 1.2rem 0;
+    padding:1rem 1.25rem;
+}
+.box1{
+    font-size:1rem;
+    opacity:0.9;
+    font-weight: 550;
+    background-color: #121212;
+}
+.box2{
+    margin-top: 15px;
+    font-size:0.9rem;
+    opacity:0.75;
+    background-color: #121212;
+    
+
+}
+.badge{
+    background-color: white;
+    color:black;
+    border:none;
+    border-radius: 1rem;
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+.main-nav{
+    position: sticky;
+    top:0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+   
+    
+
+}
+.iconupar {
+   background-color: #121212;
+   margin-top: 36px;
+
+}
+.sticky-nav-options{
+    background-color: #121212;
+    margin-top: none
+    ;
+}
+
+.main-nav button,i{
+    margin-left:0.7rem;
+}
+.main-nav i{
+    margin-right: 20px;
+}
+.main-nav button{
+    background-color: white;
+    color: black;
+    height: 2rem;
+    
+    
+}
+.main-nav button:hover{
+    background-color: #000;
+    color: white;
+    height: 2rem;
+    transition: 0.33s;
+}
+.card{
+    background-color: #232323;
+    width:150px;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.card-container{
+    display: flex;
+
+}
+.card-img{
+    width:100%;
+    border-radius:0.25rem;
+}
+p{
+    background-color: #232323;
+    padding-bottom: 10px;
+    
+}
+
+h2{
+    margin-bottom: 16px;
+    font-weight: 500;
+    background-color: #121212
+}
+.class-title{
+    font-weight: 580;
+}
+.class-info{
+    opacity: 0.7;
+}
+.cards-container{
+background-color: #121212;
+}
+.trend{
+    background-color: #121212;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.card{
+    margin-left: 6px;
+    margin-right: 24px;
+    margin-top: 14px;
+}
+.featured{
+     background-color: #121212;
+     display: flex;
+}
+.card1-img{
+    height: 137px;
+    width:100%;
+    border-radius:0.25rem;
+    
+}
+.footer{
+    height:300px;
+    background-color: #121212;
+}
+.lib-option{
+    border-radius: 1rem;
+    margin-left: none
+    ;
+}
+.badge:hover{
+background-color:black;
+color:white;
+transition: 0.1s;
+
+}
+.card:hover{
+    background-color:rgb(16, 17, 17);
+    transition: 0.3s;
+}
+.music-player{
+    display: flex;
+}
+
+h2{
+    margin-top: 20px;
+    margin-bottom: 1px;
+}
+.music-player{
+    width: 100%;
+}
+
+.music-player{
+    display: flex;
+    justify-self: end;
+    position: fixed;
+    align-items: center;
+    
+}
+.album{
+    width: 25%;
+    background-color: aqua;
+}
+.player{
+    width: 50%;
+    background-color: black;
+}
+.control{
+    width:25%;
+    background-color: orange;
+}
+.p1{
+    height:1rem;
+    width: 1rem;
+}
+.player-control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.p1{
+height: 1rem;
+margin-right: 2rem;
+opacity: 0.7;
+}
+.playback-bar{margin-top: 10px;
+    margin-left: 238.5px;
+}
+.personalbox{
+    
+    background-color: #121212;
+    border-radius: 1rem;
+    text-align: center;
+    margin-top: 20px;
+}
+.p1:hover{
+    opacity: 1;
+}
+.resumeop{
+    background-color: white;
+    color:#121212;
+    opacity: 1;
+}
+
